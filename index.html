@@ -22,8 +22,22 @@
           daten = data;
           datenGeladen = true;
         });
+      function normalizeName(name) {
+        return name
+          .trim()
+          .toLowerCase()
+          .replace(/ä/g, "ae")
+          .replace(/ö/g, "oe")
+          .replace(/ü/g, "ue")
+          .replace(/ß/g, "ss")
+      }
 
       function sucheTisch() {
+        if (!datenGeladen) {
+          document.getElementById("ausgabe").innerText = "Daten werden noch geladen...";
+          return;
+        }
+        
         const name = document.getElementById("suchfeld").value.trim().toLowerCase();
         const person = daten.find(p => p.name.toLowerCase() === name);
 
