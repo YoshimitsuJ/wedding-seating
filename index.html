@@ -13,18 +13,22 @@
 
     <script>
     let daten = [];
+    let datenGeladen = false;
       
       // Load JSONs
       fetch("guestlist.json")
         .then(response => response.json())
-        .then(data => daten = data);
+        .then(data => {
+          daten = data;
+          datenGeladen = true;
+        });
 
       function sucheTisch() {
         const name = document.getElementById("suchfeld").value.trim().toLowerCase();
         const person = daten.find(p => p.name.toLowerCase() === name);
 
         if (person) {
-          document.getElementById("ausgabe").innerText = "Du sitzt an Tisch ${person.tisch}";
+          document.getElementById("ausgabe").innerText = `Du sitzt an Tisch ${person.tisch}`;
         } else {
           document.getElementById("ausgabe").innerText = "Name nicht gefunden";
         }
