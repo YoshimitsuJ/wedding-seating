@@ -20,7 +20,7 @@
         .then(data => daten = data);
 
       function sucheTisch() {
-        const name = document.getElementById("suchefeld").value.trim().toLowerCase();
+        const name = document.getElementById("suchfeld").value.trim().toLowerCase();
         const person = daten.find(p => p.name.toLowerCase() === name);
 
         if (person) {
