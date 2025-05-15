@@ -1,169 +1,169 @@
 [
-    { "namme": "Giuseppe Ragusa", "tisch": 1 }
-    { "namme": "Maria Ragusa", "tisch": 1  }
-    { "namme": "Simone Ragusa", "tisch": 1 }
-    { "namme": "Fabian Ragusa", "tisch": 1 }
-    { "namme": "Ester Ratano", "tisch": 1 }
-    { "namme": "Chris Ratano", "tisch": 1 }
+    { "namme": "Giuseppe Ragusa", "tisch": 1 },
+    { "namme": "Maria Ragusa", "tisch": 1  },
+    { "namme": "Simone Ragusa", "tisch": 1 },
+    { "namme": "Fabian Ragusa", "tisch": 1 },
+    { "namme": "Ester Ratano", "tisch": 1 },
+    { "namme": "Chris Ratano", "tisch": 1 },
 
 
-    { "namme": "Manuel Tomás", "tisch": 2 }
-    { "namme": "Giusy Tomás", "tisch": 2 }
-    { "namme": "Joshua Tomás", "tisch": 2 }
-    { "namme": "Denise Tomás", "tisch": 2 }
-    { "namme": "Nick Tomás", "tisch": 2 }
-    { "namme": "Kimberly Tomás", "tisch": 2 }
-    { "namme": "Michele Tamburello", "tisch": 2 }
-    { "namme": "Angela Tamburello", "tisch": 2 }
+    { "namme": "Manuel Tomás", "tisch": 2 },
+    { "namme": "Giusy Tomás", "tisch": 2 },
+    { "namme": "Joshua Tomás", "tisch": 2 },
+    { "namme": "Denise Tomás", "tisch": 2 },
+    { "namme": "Nick Tomás", "tisch": 2 },
+    { "namme": "Kimberly Tomás", "tisch": 2 },
+    { "namme": "Michele Tamburello", "tisch": 2 },
+    { "namme": "Angela Tamburello", "tisch": 2 },
 
 
-    { "namme": "Giuseppe La Rosa", "tisch": 3 }
-    { "namme": "Silvia La Rosa", "tisch": 3 }
-    { "namme": "Arianna La Rosa", "tisch": 3 }
-    { "namme": "Giuseppe Scarpinata", "tisch": 3 }
-    { "namme": "Sara Scarpinata", "tisch": 3 }
-    { "namme": "Whitney Scarpinata", "tisch": 3 }
-    { "namme": "Neyla Scarpinata", "tisch": 3 }
-    { "namme": "Sem Tamburello", "tisch": 3 }
-    { "namme": "Joanna Brühl", "tisch": 3 }
-    { "namme": "Levin Köper", "tisch": 3 }
+    { "namme": "Giuseppe La Rosa", "tisch": 3 },
+    { "namme": "Silvia La Rosa", "tisch": 3 },
+    { "namme": "Arianna La Rosa", "tisch": 3 },
+    { "namme": "Giuseppe Scarpinata", "tisch": 3 },
+    { "namme": "Sara Scarpinata", "tisch": 3 },
+    { "namme": "Whitney Scarpinata", "tisch": 3 },
+    { "namme": "Neyla Scarpinata", "tisch": 3 },
+    { "namme": "Sem Tamburello", "tisch": 3 },
+    { "namme": "Joanna Brühl", "tisch": 3 },
+    { "namme": "Levin Köper", "tisch": 3 },
 
 
-    { "namme": "Axel Breitschuh", "tisch": 4 }
-    { "namme": "Natalie Breitschuh", "tisch": 4 }
-    { "namme": "Micha Breitschuh", "tisch": 4 }
-    { "namme": "Dana Breitschuh", "tisch": 4 }
-    { "namme": "Manuel Koser", "tisch": 4 }
-    { "namme": "Debora Koser", "tisch": 4 }
-    { "namme": "Marco Lusso", "tisch": 4 }
-    { "namme": "Marlon Lusso", "tisch": 4 }
-    { "namme": "Noelia Lusso", "tisch": 4 }
+    { "namme": "Axel Breitschuh", "tisch": 4 },
+    { "namme": "Natalie Breitschuh", "tisch": 4 },
+    { "namme": "Micha Breitschuh", "tisch": 4 },
+    { "namme": "Dana Breitschuh", "tisch": 4 },
+    { "namme": "Manuel Koser", "tisch": 4 },
+    { "namme": "Debora Koser", "tisch": 4 },
+    { "namme": "Marco Lusso", "tisch": 4 },
+    { "namme": "Marlon Lusso", "tisch": 4 },
+    { "namme": "Noelia Lusso", "tisch": 4 },
 
 
-    { "namme": "Patrick Amato", "tisch": 5 }
-    { "namme": "Vanessa Amato", "tisch": 5 }
-    { "namme": "Mariano Barone", "tisch": 5 }
-    { "namme": "Luana Barone", "tisch": 5 }
-    { "namme": "Moreno Birofio", "tisch": 5 }
-    { "namme": "Selenia Birofio", "tisch": 5 }
-    { "namme": "Sayana Redondo-Krüger", "tisch": 5 }
-    { "namme": "Gianluca Nigro", "tisch": 5 }
-    { "namme": "Ivan Ratano", "tisch": 5 }
-    { "namme": "Dennis Ratano", "tisch": 5 }
+    { "namme": "Patrick Amato", "tisch": 5 },
+    { "namme": "Vanessa Amato", "tisch": 5 },
+    { "namme": "Mariano Barone", "tisch": 5 },
+    { "namme": "Luana Barone", "tisch": 5 },
+    { "namme": "Moreno Birofio", "tisch": 5 },
+    { "namme": "Selenia Birofio", "tisch": 5 },
+    { "namme": "Sayana Redondo-Krüger", "tisch": 5 },
+    { "namme": "Gianluca Nigro", "tisch": 5 },
+    { "namme": "Ivan Ratano", "tisch": 5 },
+    { "namme": "Dennis Ratano", "tisch": 5 },
 
 
-    { "namme": "Anja Bauer", "tisch": 6 }
-    { "namme": "Sarangka Aingkaran", "tisch": 6 }
-    { "namme": "Phillip Gaiblinger", "tisch": 6 }
-    { "namme": "Lara Donolato", "tisch": 6 }
-    { "namme": "Lukas Lippmann", "tisch": 6 }
-    { "namme": "Alessandro Flaig", "tisch": 6 }
-    { "namme": "Anna-Maria Pfäffle", "tisch": 6 }
-    { "namme": "Lukas Pfäffle", "tisch": 6 }
-    { "namme": "Darian Pinazzo", "tisch": 6 }
-    { "namme": "Lea Rupprecht", "tisch": 6 }
+    { "namme": "Anja Bauer", "tisch": 6 },
+    { "namme": "Sarangka Aingkaran", "tisch": 6 },
+    { "namme": "Phillip Gaiblinger", "tisch": 6 },
+    { "namme": "Lara Donolato", "tisch": 6 },
+    { "namme": "Lukas Lippmann", "tisch": 6 },
+    { "namme": "Alessandro Flaig", "tisch": 6 },
+    { "namme": "Anna-Maria Pfäffle", "tisch": 6 },
+    { "namme": "Lukas Pfäffle", "tisch": 6 },
+    { "namme": "Darian Pinazzo", "tisch": 6 },
+    { "namme": "Lea Rupprecht", "tisch": 6 },
 
 
-    { "namme": "Fabio Frädrich", "tisch": 7 }
-    { "namme": "Annabell Frädrich", "tisch": 7 }
-    { "namme": "Dario Frädrich", "tisch": 7 }
-    { "namme": "Dylan Reina", "tisch": 7 }
-    { "namme": "Michelle Reina", "tisch": 7 }
-    { "namme": "Jeremy Reina", "tisch": 7 }
-    { "namme": "Alessio Salinco", "tisch": 7 }
-    { "namme": "Letizia Salinco", "tisch": 7 }
-    { "namme": "Raphael Hartl", "tisch": 7 }
-    { "namme": "Anna Storozhyk", "tisch": 7 }
+    { "namme": "Fabio Frädrich", "tisch": 7 },
+    { "namme": "Annabell Frädrich", "tisch": 7 },
+    { "namme": "Dario Frädrich", "tisch": 7 },
+    { "namme": "Dylan Reina", "tisch": 7 },
+    { "namme": "Michelle Reina", "tisch": 7 },
+    { "namme": "Jeremy Reina", "tisch": 7 },
+    { "namme": "Alessio Salinco", "tisch": 7 },
+    { "namme": "Letizia Salinco", "tisch": 7 },
+    { "namme": "Raphael Hartl", "tisch": 7 },
+    { "namme": "Anna Storozhyk", "tisch": 7 },
 
 
-    { "namme": "Delmio Almeida Chico", "tisch": 8 }
-    { "namme": "Lea Haensel", "tisch": 8 }
-    { "namme": "Leslie Haensel", "tisch": 8 }
-    { "namme": "Simon Kurz", "tisch": 8 }
+    { "namme": "Delmio Almeida Chico", "tisch": 8 },
+    { "namme": "Lea Haensel", "tisch": 8 },
+    { "namme": "Leslie Haensel", "tisch": 8 },
+    { "namme": "Simon Kurz", "tisch": 8 },
     { "namme": "Jeremy Neuschütz", "tisch": 8 }
-    { "namme": "Pascal Strich", "tisch": 8 }
-    { "namme": "Marc Videira", "tisch": 8 }
-    { "namme": "Rebeca Videira", "tisch": 8 }
-    { "namme": "Vivien Videira", "tisch": 8 }
+    { "namme": "Pascal Strich", "tisch": 8 },
+    { "namme": "Marc Videira", "tisch": 8 },
+    { "namme": "Rebeca Videira", "tisch": 8 },
+    { "namme": "Vivien Videira", "tisch": 8 },
 
 
-    { "namme": "Antonio Montanera", "tisch": 9 }
-    { "namme": "Angela Montanera", "tisch": 9 }
-    { "namme": "Valeria Montanera", "tisch": 9 }
-    { "namme": "Davide Montanera", "tisch": 9 }
-    { "namme": "Tiziana Gallucci", "tisch": 9 }
-    { "namme": "Marcel Rzesnitzek", "tisch": 9 }
-    { "namme": "Ilaria Danubio", "tisch": 9 }
-    { "namme": "Letizia Danubio", "tisch": 9 }
-    { "namme": "Raphael Stöhr", "tisch": 9 }
+    { "namme": "Antonio Montanera", "tisch": 9 },
+    { "namme": "Angela Montanera", "tisch": 9 },
+    { "namme": "Valeria Montanera", "tisch": 9 },
+    { "namme": "Davide Montanera", "tisch": 9 },
+    { "namme": "Tiziana Gallucci", "tisch": 9 },
+    { "namme": "Marcel Rzesnitzek", "tisch": 9 },
+    { "namme": "Ilaria Danubio", "tisch": 9 },
+    { "namme": "Letizia Danubio", "tisch": 9 },
+    { "namme": "Raphael Stöhr", "tisch": 9 },
 
 
-    { "namme": "Tim Breithaupt", "tisch": 10 }
-    { "namme": "Natalie Ava", "tisch": 10 }
-    { "namme": "Marco Grimaldi", "tisch": 10 }
-    { "namme": "Fabiola Grimaldi", "tisch": 10 }
-    { "namme": "Stelios Kaboridis", "tisch": 10 }
-    { "namme": "Marco Lupò", "tisch": 10 }
-    { "namme": "Pietro Lusso", "tisch": 10 }
-    { "namme": "Andreas Zierer", "tisch": 10 }
-    { "namme": "Franziska Zierer", "tisch": 10 }
-    { "namme": "Leon Zierer", "tisch": 10 }
+    { "namme": "Tim Breithaupt", "tisch": 10 },
+    { "namme": "Natalie Ava", "tisch": 10 },
+    { "namme": "Marco Grimaldi", "tisch": 10 },
+    { "namme": "Fabiola Grimaldi", "tisch": 10 },
+    { "namme": "Stelios Kaboridis", "tisch": 10 },
+    { "namme": "Marco Lupò", "tisch": 10 },
+    { "namme": "Pietro Lusso", "tisch": 10 },
+    { "namme": "Andreas Zierer", "tisch": 10 },
+    { "namme": "Franziska Zierer", "tisch": 10 },
+    { "namme": "Leon Zierer", "tisch": 10 },
 
 
-    { "namme": "Max Lehmann", "tisch": 11 }
-    { "namme": "Monika Lehmann", "tisch": 11 }
-    { "namme": "Ben Marschall", "tisch": 11 }
-    { "namme": "Janina Marschall", "tisch": 11 }
-    { "namme": "Tom Marschall", "tisch": 11 }
-    { "namme": "Emma Marschall", "tisch": 11 }
-    { "namme": "Santhosh Varghese", "tisch": 11 }
-    { "namme": "Euodia Varghese", "tisch": 11 }
-    { "namme": "Adriel Varghese", "tisch": 11 }
+    { "namme": "Max Lehmann", "tisch": 11 },
+    { "namme": "Monika Lehmann", "tisch": 11 },
+    { "namme": "Ben Marschall", "tisch": 11 },
+    { "namme": "Janina Marschall", "tisch": 11 },
+    { "namme": "Tom Marschall", "tisch": 11 },
+    { "namme": "Emma Marschall", "tisch": 11 },
+    { "namme": "Santhosh Varghese", "tisch": 11 },
+    { "namme": "Euodia Varghese", "tisch": 11 },
+    { "namme": "Adriel Varghese", "tisch": 11 },
 
 
-    { "namme": "Alex Alfano", "tisch": 12 }
-    { "namme": "Grazia Alfano", "tisch": 12 }
-    { "namme": "Sven Barth", "tisch": 12 }
-    { "namme": "Lara Barth", "tisch": 12 }
-    { "namme": "Christopher Barth", "tisch": 12 }
-    { "namme": "Moritz Bühler", "tisch": 12 }
-    { "namme": "Anjuli Bühler", "tisch": 12 }
-    { "namme": "Mattis Bühler", "tisch": 12 }
-    { "namme": "Fabio Palma", "tisch": 12 }
-    { "namme": "Anna Palma", "tisch": 12 }
+    { "namme": "Alex Alfano", "tisch": 12 },
+    { "namme": "Grazia Alfano", "tisch": 12 },
+    { "namme": "Sven Barth", "tisch": 12 },
+    { "namme": "Lara Barth", "tisch": 12 },
+    { "namme": "Christopher Barth", "tisch": 12 },
+    { "namme": "Moritz Bühler", "tisch": 12 },
+    { "namme": "Anjuli Bühler", "tisch": 12 },
+    { "namme": "Mattis Bühler", "tisch": 12 },
+    { "namme": "Fabio Palma", "tisch": 12 },
+    { "namme": "Anna Palma", "tisch": 12 },
 
 
-    { "namme": "Werner Frädrich", "tisch": 13 }
-    { "namme": "Nada Frädrich", "tisch": 13 }
-    { "namme": "Andree Lippmann", "tisch": 13 }
-    { "namme": "Daniela Lippmann", "tisch": 13 }
-    { "namme": "Davide Podda", "tisch": 13 }
-    { "namme": "Enza Podda", "tisch": 13 }
-    { "namme": "Daniele Ratano", "tisch": 13 }
-    { "namme": "Susanna Ratano", "tisch": 13 }
-    { "namme": "Salvatore Reina", "tisch": 13 }
-    { "namme": "Mary Reina", "tisch": 13 }
+    { "namme": "Werner Frädrich", "tisch": 13 },
+    { "namme": "Nada Frädrich", "tisch": 13 },
+    { "namme": "Andree Lippmann", "tisch": 13 },
+    { "namme": "Daniela Lippmann", "tisch": 13 },
+    { "namme": "Davide Podda", "tisch": 13 },
+    { "namme": "Enza Podda", "tisch": 13 },
+    { "namme": "Daniele Ratano", "tisch": 13 },
+    { "namme": "Susanna Ratano", "tisch": 13 },
+    { "namme": "Salvatore Reina", "tisch": 13 },
+    { "namme": "Mary Reina", "tisch": 13 },
 
 
-    { "namme": "Boas Betzler", "tisch": 14 }
-    { "namme": "Sandra Betzler", "tisch": 14 }
-    { "namme": "Peter Heinrich", "tisch": 14 }
-    { "namme": "Hille Heinrich", "tisch": 14 }
-    { "namme": "Irmi Herrlinger", "tisch": 14 }
-    { "namme": "Oliver Holz", "tisch": 14 }
-    { "namme": "Alexandra Holz", "tisch": 14 }
-    { "namme": "Jonas Videira", "tisch": 14 }
-    { "namme": "Dina Videira", "tisch": 14 }
+    { "namme": "Boas Betzler", "tisch": 14 },
+    { "namme": "Sandra Betzler", "tisch": 14 },
+    { "namme": "Peter Heinrich", "tisch": 14 },
+    { "namme": "Hille Heinrich", "tisch": 14 },
+    { "namme": "Irmi Herrlinger", "tisch": 14 },
+    { "namme": "Oliver Holz", "tisch": 14 },
+    { "namme": "Alexandra Holz", "tisch": 14 },
+    { "namme": "Jonas Videira", "tisch": 14 },
+    { "namme": "Dina Videira", "tisch": 14 },
 
 
-    { "namme": "Salvatore Bellomo", "tisch": 15 }
-    { "namme": "Alesandra Bellomo", "tisch": 15 }
-    { "namme": "Abramo De Lucia", "tisch": 15 }
-    { "namme": "Lina De Lucia", "tisch": 15 }
-    { "namme": "Giovanna Leone", "tisch": 15 }
+    { "namme": "Salvatore Bellomo", "tisch": 15 },
+    { "namme": "Alesandra Bellomo", "tisch": 15 },
+    { "namme": "Abramo De Lucia", "tisch": 15 },
+    { "namme": "Lina De Lucia", "tisch": 15 },
+    { "namme": "Giovanna Leone", "tisch": 15 },
     { "namme": "Cataldo Nigro", "tisch": 15 }
-    { "namme": "Dina Nigro", "tisch": 15 }
-    { "namme": "Chiarina Nigro", "tisch": 15 }
+    { "namme": "Dina Nigro", "tisch": 15 },
+    { "namme": "Chiarina Nigro", "tisch": 15 },
 
 
 
