@@ -1,63 +1,68 @@
 <!DOCTYPE html>
-<html lang="">
-  <head>
-    <meta charset="UTF-8">
-    <title>L&L Wedding</title>
-    
-  </head>
-  <body>
-    
-    <input type="text" id="suchfeld" placeholder="Nachname eingeben">
-    <button onclick="sucheTisch()">Suchen</button>
-    <p id="ausgabe"></p>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>L&L Wedding</title>
+</head>
+<body>
 
-   <script>
+  <input type="text" id="suchfeld" placeholder="Nachnamen oder Namen eingeben">
+  <button onclick="sucheTisch()">Suchen</button>
+  <p id="ausgabe"></p>
+
+  <script>
     let daten = [];
     let datenGeladen = false;
-      
-      
+
     fetch("guestlist.json")
-        .then(response => {
-          if (!response.ok) throw new Error("Fehler beim LAden");
-          return response.json();
-        })
-        .then(data => {
-          daten = data;
-          datenGeladen = true;
-        })
-        .catch(error => {
-          console.error("Fehler beim LAden:", error);
-          document.getElementById("ausgabe").innerText = "Fehler beim Laden der Daten.";
-        });
+      .then(response => {
+        if (!response.ok) throw new Error("Fehler beim Laden");
+        return response.json();
+      })
+      .then(data => {
+        console.log(data); // <-- prüfen, ob überhaupt etwas geladen wurde
+        daten = data.tische;
+        datenGeladen = true;
+      })
+      .catch(error => {
+        console.error("Fehler beim Laden:", error);
+        document.getElementById("ausgabe").innerText = "Fehler beim Laden der Daten.";
+      });
 
+    function normalizeName(name) {
+      return name
+        .trim()
+        .toLowerCase()
+        .replace(/ä/g, "ae")
+        .replace(/ö/g, "oe")
+        .replace(/ü/g, "ue")
+        .replace(/ß/g, "ss");
+    }
 
-      // Ignore special characters
-      function normalizeName(name) {
-        return name
-          .trim()
-          .toLowerCase()
-          .replace(/ä/g, "ae")
-          .replace(/ö/g, "oe")
-          .replace(/ü/g, "ue")
-          .replace(/ß/g, "ss")
-        }
-        // 
-        function sucheTisch() {
-          if (!datenGeladen) {
-            document.getElementById("ausgabe").innerText = "Daten werden noch geladen...";
+    function sucheTisch() {
+      if (!datenGeladen) {
+        document.getElementById("ausgabe").innerText = "Daten werden noch geladen...";
+        return;
+      }
+
+      const eingabe = normalizeName(document.getElementById("suchfeld").value);
+      let gefunden = false;
+
+      for (const tisch of daten) {
+        for (const person of tisch.personen) {
+          if (normalizeName(person).includes(eingabe)) {
+            document.getElementById("ausgabe").innerText = `${person} sitzt an Tisch ${tisch.tisch_id}`;
+            gefunden = true;
             return;
           }
-          
-          const name = document.getElementById("suchfeld").value.trim().toLowerCase();
-          const person = daten.find(p => p.name.trim().toLowerCase() === eingabe);
-
-          if (person) {
-            document.getElementById("ausgabe").innerText = `Du sitzt an Tisch ${person.tisch}`;
-          } else {
-            document.getElementById("ausgabe").innerText = "Name nicht gefunden";
-          }
         }
-    </script>
+      }
 
-  </body>
+      if (!gefunden) {
+        document.getElementById("ausgabe").innerText = "Name nicht gefunden.";
+      }
+    }
+  </script>
+
+</body>
 </html>

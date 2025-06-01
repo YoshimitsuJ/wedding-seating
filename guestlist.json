@@ -1,171 +1,67 @@
-[
-    { "name": "Giuseppe Ragusa", "tisch": 1 },
-    { "name": "Maria Ragusa", "tisch": 1 },
-    { "name": "Simone Ragusa", "tisch": 1 },
-    { "name": "Joshua Ragusa", "tisch": 1 }
-    { "name": "Fabian Ragusa", "tisch": 1 },
-    { "name": "Ester Ratano", "tisch": 1 },
-    { "name": "Chris Ratano", "tisch": 1 },
+{
+   
+   
+    "tische": [
+        {
+            "tisch_id": 1,
+            "personen": ["Giuseppe Ragusa", "Maria Ragusa", "Simone Ragusa", "Fabian Ragusa", "Joshua Ragusa", "Ester Ratano", "Chris Ratano"]
+        },
+        {
+            "tisch_id": 2,
+            "personen": ["Manuel Tomás", "Giusy Tomás", "Joshua Tomás", "Denise Tomás", "Nick Tomás", "Kimberly Tomás", "Michele Tamburello", "Angela Tamburello"]
+        },
+        {
+            "tisch_id": 3,
+            "personen": ["Giuseppe La Rosa", "Silvia La Rosa", "Arianna La Rosa", "Giuseppe Scarpinata", "Sara Scarpinata", "Whitney Scarpinata", "Neyla Scarpinata", "Sem Tamburello", "Joanna Brühl", "Levin Köper"]
+        },
+        {
+            "tisch_id": 4,
+            "personen": ["Axel Breitschuh", "Natalie Breitschuh", "Micha Breitschuh", "Dana Breitschuh", "Manuel Koser", "Debora Koser", "Marco Lusso", "Marlon Lusso", "Noelia Lusso"]
+        },
+        {
+            "tisch_id": 5,
+            "personen": ["Patrick Amato", "Vanessa Amato", "Mariano Barone", "Luana Barone", "Moreno Birofio", "Selenia Birofio", "Sayana Redondo-Krüger", "Gianluca Nigro", "Ivan Ratano", "Dennis Ratano"]
+        },
+        {
+            "tisch_id": 6,
+            "personen": ["Anja Bauer", "Sarangka Aingkaran", "Philip Geiblinger, Lara Donolato", "Lukas Lippmann", "Alessandro Flaig", "Anna-Maria Pfäffle", "Lukas Pfäffle", "Darian Pinazzo", "Lea Rupprecht"]
+        },
+        {
+            "tisch_id": 7,
+            "personen": ["Fabio Frädrich", "Annabell Frädrich", "Dario Frädrich", "Dylan Reina", "Michelle Reina", "Jeremy Reina", "Alessio Salinco", "Letizia Salinco", "Raphael Hartl", "Anna Storozhyk"]
+        },
+        {
+            "tisch_id": 8,
+            "personen": ["Delmio Almeida Chico", "Lea Haensel", "Leslie Haensel", "Simon Kurz", "Jeremy Neuschütz", "Pascal Strich", "Marc Videira", "Rebeca Videira", "Vivien Videira"]
+        },
+        {
+            "tisch_id": 9,
+            "personen": ["Antonio Montanera", "Angela Montanera", "Valeria Montanera", "Davide Montanera", "Tiziana Gallucci", "Marcel Rzesnitzek", "Ilaria Danubio", "Letizia Danubio", "Raphael Stöhr"]
+        },
+        {
+            "tisch_id": 10,
+            "personen": ["Tim Breithaupt", "Natalie Ava", "Marco Grimaldi", "Fabiola Grimaldi", "Stelios Kaboridis", "Marco Lupò", "Pietro Lusso", "Andreas Zierer", "Franziska Zierer", "Leon Zierer"]
+        },
+        {
+            "tisch_id": 11,
+            "personen": ["Max Lehmann", "Monika Lehmann", "Ben Marschall", "Janina Marschall", "Tom Marschall", "Emma Marschall", "Santhosh Varghese", "Euodia Varghese", "Adriel Varghese"]
+        },
+        {
+            "tisch_id": 12,
+            "personen": ["Alex Alfano", "Grazia Alfano", "Sven Barth", "Lara Barth", "Christopher Barth", "Moritz Bühler", "Anjuli Bühler", "Mattis Bühler", "Fabio Palma", "Anna Palma"]
+        },
+        {
+            "tisch_id": 13,
+            "personen": ["Werner Frädrich", "Nada Frädrich", "Andree Lippmann", "Daniela Lippmann", "Davide Podda", "Enza Podda", "Daniele Ratano", "Susanna Ratano", "Salvatore Reina", "Mary Reina"]
+        },
+        {
+            "tisch_id": 14,
+            "personen": ["Boas Betzler", "Sandra Betzler", "Peter Heinrich", "Hille Heinrich", "Irmi Herrlinger", "Oliver Holz", "Alexandra Holz", "Jonas Videira", "Dina Videira"]
+        },
+        {
+            "tisch_id": 15,
+            "personen": ["Salvatore Bellomo", "Alessandra Bellomo", "Abramo De Lucia", "Lina De Lucia", "Giovanna Leone", "Cataldo Nigro", "Dina Nigro", "Chiarina Nigro"]
+        }
 
-
-    { "name": "Manuel Tomás", "tisch": 2 },
-    { "name": "Giusy Tomás", "tisch": 2 },
-    { "name": "Joshua Tomás", "tisch": 2 },
-    { "name": "Denise Tomás", "tisch": 2 },
-    { "name": "Nick Tomás", "tisch": 2 },
-    { "name": "Kimberly Tomás", "tisch": 2 },
-    { "name": "Michele Tamburello", "tisch": 2 },
-    { "name": "Angela Tamburello", "tisch": 2 },
-
-
-    { "name": "Giuseppe La Rosa", "tisch": 3 },
-    { "name": "Silvia La Rosa", "tisch": 3 },
-    { "name": "Arianna La Rosa", "tisch": 3 },
-    { "name": "Giuseppe Scarpinata", "tisch": 3 },
-    { "name": "Sara Scarpinata", "tisch": 3 },
-    { "name": "Whitney Scarpinata", "tisch": 3 },
-    { "name": "Neyla Scarpinata", "tisch": 3 },
-    { "name": "Sem Tamburello", "tisch": 3 },
-    { "name": "Joanna Brühl", "tisch": 3 },
-    { "name": "Levin Köper", "tisch": 3 },
-
-
-    { "name": "Axel Breitschuh", "tisch": 4 },
-    { "name": "Natalie Breitschuh", "tisch": 4 },
-    { "name": "Micha Breitschuh", "tisch": 4 },
-    { "name": "Dana Breitschuh", "tisch": 4 },
-    { "name": "Manuel Koser", "tisch": 4 },
-    { "name": "Debora Koser", "tisch": 4 },
-    { "name": "Marco Lusso", "tisch": 4 },
-    { "name": "Marlon Lusso", "tisch": 4 },
-    { "name": "Noelia Lusso", "tisch": 4 },
-
-
-    { "name": "Patrick Amato", "tisch": 5 },
-    { "name": "Vanessa Amato", "tisch": 5 },
-    { "name": "Mariano Barone", "tisch": 5 },
-    { "name": "Luana Barone", "tisch": 5 },
-    { "name": "Moreno Birofio", "tisch": 5 },
-    { "name": "Selenia Birofio", "tisch": 5 },
-    { "name": "Sayana Redondo-Krüger", "tisch": 5 },
-    { "name": "Gianluca Nigro", "tisch": 5 },
-    { "name": "Ivan Ratano", "tisch": 5 },
-    { "name": "Dennis Ratano", "tisch": 5 },
-
-
-    { "name": "Anja Bauer", "tisch": 6 },
-    { "name": "Sarangka Aingkaran", "tisch": 6 },
-    { "name": "Phillip Gaiblinger", "tisch": 6 },
-    { "name": "Lara Donolato", "tisch": 6 },
-    { "name": "Lukas Lippmann", "tisch": 6 },
-    { "name": "Alessandro Flaig", "tisch": 6 },
-    { "name": "Anna-Maria Pfäffle", "tisch": 6 },
-    { "name": "Lukas Pfäffle", "tisch": 6 },
-    { "name": "Darian Pinazzo", "tisch": 6 },
-    { "name": "Lea Rupprecht", "tisch": 6 },
-
-
-    { "name": "Fabio Frädrich", "tisch": 7 },
-    { "name": "Annabell Frädrich", "tisch": 7 },
-    { "name": "Dario Frädrich", "tisch": 7 },
-    { "name": "Dylan Reina", "tisch": 7 },
-    { "name": "Michelle Reina", "tisch": 7 },
-    { "name": "Jeremy Reina", "tisch": 7 },
-    { "name": "Alessio Salinco", "tisch": 7 },
-    { "name": "Letizia Salinco", "tisch": 7 },
-    { "name": "Raphael Hartl", "tisch": 7 },
-    { "name": "Anna Storozhyk", "tisch": 7 },
-
-
-    { "name": "Delmio Almeida Chico", "tisch": 8 },
-    { "name": "Lea Haensel", "tisch": 8 },
-    { "name": "Leslie Haensel", "tisch": 8 },
-    { "name": "Simon Kurz", "tisch": 8 },
-    { "name": "Jeremy Neuschütz", "tisch": 8 }
-    { "name": "Pascal Strich", "tisch": 8 },
-    { "name": "Marc Videira", "tisch": 8 },
-    { "name": "Rebeca Videira", "tisch": 8 },
-    { "name": "Vivien Videira", "tisch": 8 },
-
-
-    { "name": "Antonio Montanera", "tisch": 9 },
-    { "name": "Angela Montanera", "tisch": 9 },
-    { "name": "Valeria Montanera", "tisch": 9 },
-    { "name": "Davide Montanera", "tisch": 9 },
-    { "name": "Tiziana Gallucci", "tisch": 9 },
-    { "name": "Marcel Rzesnitzek", "tisch": 9 },
-    { "name": "Ilaria Danubio", "tisch": 9 },
-    { "name": "Letizia Danubio", "tisch": 9 },
-    { "name": "Raphael Stöhr", "tisch": 9 },
-
-
-    { "name": "Tim Breithaupt", "tisch": 10 },
-    { "name": "Natalie Ava", "tisch": 10 },
-    { "name": "Marco Grimaldi", "tisch": 10 },
-    { "name": "Fabiola Grimaldi", "tisch": 10 },
-    { "name": "Stelios Kaboridis", "tisch": 10 },
-    { "name": "Marco Lupò", "tisch": 10 },
-    { "name": "Pietro Lusso", "tisch": 10 },
-    { "name": "Andreas Zierer", "tisch": 10 },
-    { "name": "Franziska Zierer", "tisch": 10 },
-    { "name": "Leon Zierer", "tisch": 10 },
-
-
-    { "name": "Max Lehmann", "tisch": 11 },
-    { "name": "Monika Lehmann", "tisch": 11 },
-    { "name": "Ben Marschall", "tisch": 11 },
-    { "name": "Janina Marschall", "tisch": 11 },
-    { "name": "Tom Marschall", "tisch": 11 },
-    { "name": "Emma Marschall", "tisch": 11 },
-    { "name": "Santhosh Varghese", "tisch": 11 },
-    { "name": "Euodia Varghese", "tisch": 11 },
-    { "name": "Adriel Varghese", "tisch": 11 },
-
-
-    { "name": "Alex Alfano", "tisch": 12 },
-    { "name": "Grazia Alfano", "tisch": 12 },
-    { "name": "Sven Barth", "tisch": 12 },
-    { "name": "Lara Barth", "tisch": 12 },
-    { "name": "Christopher Barth", "tisch": 12 },
-    { "name": "Moritz Bühler", "tisch": 12 },
-    { "name": "Anjuli Bühler", "tisch": 12 },
-    { "name": "Mattis Bühler", "tisch": 12 },
-    { "name": "Fabio Palma", "tisch": 12 },
-    { "name": "Anna Palma", "tisch": 12 },
-
-
-    { "name": "Werner Frädrich", "tisch": 13 },
-    { "name": "Nada Frädrich", "tisch": 13 },
-    { "name": "Andree Lippmann", "tisch": 13 },
-    { "name": "Daniela Lippmann", "tisch": 13 },
-    { "name": "Davide Podda", "tisch": 13 },
-    { "name": "Enza Podda", "tisch": 13 },
-    { "name": "Daniele Ratano", "tisch": 13 },
-    { "name": "Susanna Ratano", "tisch": 13 },
-    { "name": "Salvatore Reina", "tisch": 13 },
-    { "name": "Mary Reina", "tisch": 13 },
-
-
-    { "name": "Boas Betzler", "tisch": 14 },
-    { "name": "Sandra Betzler", "tisch": 14 },
-    { "name": "Peter Heinrich", "tisch": 14 },
-    { "name": "Hille Heinrich", "tisch": 14 },
-    { "name": "Irmi Herrlinger", "tisch": 14 },
-    { "name": "Oliver Holz", "tisch": 14 },
-    { "name": "Alexandra Holz", "tisch": 14 },
-    { "name": "Jonas Videira", "tisch": 14 },
-    { "name": "Dina Videira", "tisch": 14 },
-
-
-    { "name": "Salvatore Bellomo", "tisch": 15 },
-    { "name": "Alesandra Bellomo", "tisch": 15 },
-    { "name": "Abramo De Lucia", "tisch": 15 },
-    { "name": "Lina De Lucia", "tisch": 15 },
-    { "name": "Giovanna Leone", "tisch": 15 },
-    { "name": "Cataldo Nigro", "tisch": 15 }
-    { "name": "Dina Nigro", "tisch": 15 },
-    { "name": "Chiarina Nigro", "tisch": 15 }
-
-
-
-]
+    ]
+}
