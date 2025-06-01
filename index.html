@@ -14,7 +14,7 @@
     let daten = [];
     let datenGeladen = false;
 
-    fetch("guestlist.json")
+    fetch(`guestlist.json?nocache=${Date.now()}`)
       .then(response => {
         if (!response.ok) throw new Error("Fehler beim Laden");
         return response.json();
@@ -51,7 +51,7 @@
       for (const tisch of daten) {
         for (const person of tisch.personen) {
           if (normalizeName(person).includes(eingabe)) {
-            document.getElementById("ausgabe").innerText = `${person} sitzt an Tisch ${tisch.tisch_id}`;
+            document.getElementById("ausgabe").innerText = `${person} sitzt am Tisch ${tisch.tisch_id}`;
             gefunden = true;
             return;
           }
